@@ -11,11 +11,12 @@ ipyevents>=2.0.1
 ipympl>=0.8.2
 
 # Jupyter notebook libraries
-jupyterlab >=4.0.7,<5.0
+jupyterlab~=4.2.5
 jupyterlab-executor
-jupyterlite==0.2.0
-jupyterlite-core
-jupyterlite-pyodide-kernel
+#jupyterlite==0.2.0
+jupyterlite-core==0.4.1
+jupyterlite-pyodide-kernel==0.4.2
+notebook~=7.2.2
 
 # Themes
-theme-darcula
+jupyterlab-night
